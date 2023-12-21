@@ -13,6 +13,8 @@
 		981A8F222B318E82008CC4C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981A8F202B318E82008CC4C7 /* Main.storyboard */; };
 		981A8F242B318E84008CC4C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981A8F232B318E84008CC4C7 /* Assets.xcassets */; };
 		981A8F272B318E84008CC4C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981A8F252B318E84008CC4C7 /* LaunchScreen.storyboard */; };
+		981A8F342B33F68C008CC4C7 /* PCWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A8F322B33F68C008CC4C7 /* PCWebViewController.swift */; };
+		981A8F352B33F68C008CC4C7 /* PCWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 981A8F332B33F68C008CC4C7 /* PCWebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		981A8F232B318E84008CC4C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		981A8F262B318E84008CC4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		981A8F282B318E84008CC4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981A8F322B33F68C008CC4C7 /* PCWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCWebViewController.swift; sourceTree = "<group>"; };
+		981A8F332B33F68C008CC4C7 /* PCWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCWebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				981A8F232B318E84008CC4C7 /* Assets.xcassets */,
 				981A8F252B318E84008CC4C7 /* LaunchScreen.storyboard */,
 				981A8F282B318E84008CC4C7 /* Info.plist */,
+				981A8F322B33F68C008CC4C7 /* PCWebViewController.swift */,
+				981A8F332B33F68C008CC4C7 /* PCWebViewController.xib */,
 			);
 			path = "user-agent-test";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981A8F352B33F68C008CC4C7 /* PCWebViewController.xib in Resources */,
 				981A8F272B318E84008CC4C7 /* LaunchScreen.storyboard in Resources */,
 				981A8F242B318E84008CC4C7 /* Assets.xcassets in Resources */,
 				981A8F222B318E82008CC4C7 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981A8F342B33F68C008CC4C7 /* PCWebViewController.swift in Sources */,
 				981A8F1F2B318E82008CC4C7 /* ViewController.swift in Sources */,
 				981A8F1B2B318E82008CC4C7 /* AppDelegate.swift in Sources */,
 				981A8F1D2B318E82008CC4C7 /* SceneDelegate.swift in Sources */,
